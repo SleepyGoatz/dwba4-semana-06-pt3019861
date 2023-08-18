@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id='menu'></div>
+  <script>
+    fetch('menu.html')
+      .then(response=>response.text())
+      .then(data=>{
+      document.getElementById('menu').innerHTML=data;
+    });
+  </script>
+  <section id='top'><img src='Imagens/Logo.jpg' width='360'/></section>
+  <h4><b>Cursos</b></h4>
+  <ul>
+    <li><a href='ADS.html'>Análise e Desenvolvimento de Sistemas</a></li>
+    <li><a href='EP.html'>Engenharia de Produção</a></li>
+    <li><a href='GTI.html'>Gestão em tecnologia da Informação</a></li>
+    <li><a href='LETRAS.html'>Letras</a></li>
+    <li><a href='GP.html'>Gestão Pública</a></li>
+  </ul>
+  <h4><b>Eventos</b></h4>
+  &nbsp &nbsp &nbsp &nbsp &nbsp 
+  <img src='Imagens/SEJA_RARO.jpg' width='450'/><br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp
+  Aniversário do IFSP - Pirituba - Palestra Augusto Aielo<br>
+  <h2><b>Sobre a Biblioteca</b></h2>
+  <img src='Imagens/library.jpeg' /><br>
+  <h2><b>Conheça os novos títulos disponíveis na nossa biblioteca</b></h2>
+  <h6><b>Publicado: Quarta-feira, 14 de agosto de 2019</b></h6>
+  <h2><b>Conheça o SUAP</b></h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/yVbOcB1ryh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <br> <br>
+  <a href='#top'><img src= 'Imagens/MoveTop.png' width='50' /></a>
+  <a href='https://www.facebook.com/ifsppirituba'><img src= 'Imagens/facebook.png' width='50'/></a> <br> <br>
+  <footer>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</footer>
+  
+</body>
+
+</html>
