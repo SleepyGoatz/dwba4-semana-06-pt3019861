@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Entrar - IFSP - Pirituba</title>
-<script src="js/disabling.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+  <meta charset="UTF-8">
+  <title>Entrar - IFSP - Pirituba</title>
+  <script src="js/disabling.js"></script>
 </head>
 <body>
 
-  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+  <header id="cabecalho">
     <nav>
-      <object width="100%" height="165px" data="menu.html"></object>
+      <object width="100%" height="200px" data="menu.html"></object>
     </nav>
   </header>
 
@@ -18,14 +20,22 @@
     <h1><b>Entrar</b></h1>
 
     <form>
-      
+
+      <div class='background1'>
       <label for='usuario'>Usuário</label>
       <input type='text' name='usuario' id='usuario' required><br><br>
+      </div><br>
+
+      <div class='background1'>
       <label for='senha'>Senha</label>
       <input type='password' name='senha' id='senha' required><br><br>
+      </div><br>
 
-    <input type='submit' Value='Entrar'> <a href='#'>Esqueci minha senha</a>
-      
+      <div class='background1'>
+        <input class='submit_reset' type='submit' Value='Entrar'><br>
+        <a href='#'>Esqueci minha senha</a>
+      </div>
+        
     </form><br><br>
     
   </main>
